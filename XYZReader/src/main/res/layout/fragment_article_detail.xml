@@ -1,4 +1,5 @@
-<com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.xyzreader.ui.DrawInsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
@@ -21,6 +22,7 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
+                    android:scaleType="centerCrop"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                      />
@@ -92,7 +94,8 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
         android:background="@drawable/add_fab_background"
         android:layout_gravity="bottom|end"
