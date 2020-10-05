@@ -41,7 +41,7 @@
                 android:layout_gravity="center_horizontal"
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:background="@color/theme_primary"
-                android:elevation="2dp"
+                android:elevation="@dimen/resting_elevation"
                 android:layout_marginTop="@dimen/detail_card_top_margin">
 
                 <LinearLayout

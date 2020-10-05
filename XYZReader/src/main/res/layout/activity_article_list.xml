@@ -25,7 +25,8 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:background="?colorPrimaryDark">
+        android:background="?colorPrimaryDark"
+        android:elevation="@dimen/app_bar_elevation">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
